@@ -1,0 +1,69 @@
+.card1 {
+    overflow: initial;
+    text-align: left;
+    color: black;
+}
+
+.rtl.card1 {
+    text-align: right !important;
+}
+
+.card1 img {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid #eee !important;
+    border-radius: 10px;
+}
+
+.card1 .content .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card1 .content .sale-price {
+    color: black;
+    font-size: 13px;
+}
+
+.card1 .content h3 {
+    margin: 8px 0 0 !important;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 16px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.card1 .content span {
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card1 .info {
+    margin-top: 5px;
+}
+
+.card1 .add-to-cart {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

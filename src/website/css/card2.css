@@ -1,0 +1,69 @@
+.card2:not(:last-child) {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 15px 0;
+}
+
+.card2:last-child {
+    padding: 15px 0;
+}
+
+.card2 .item-content {
+    width: 100%;
+}
+
+.card2 .item-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #eee !important;
+    border-radius: 30px;
+    aspect-ratio: 1 / 1;
+}
+
+.card2 .item-name {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: black;
+}
+
+.card2 .item-description {
+    font-size: 13px !important;
+    margin: 0 0 5px;
+    font-weight: 400;
+    color: #999;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card2 .sale-price {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+.card2 .price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 13px;
+}
+
+.card2 .item-icon-btn {
+    background-color: black;
+    padding: 5px;
+}
+
+.card2 .item-icon-btn:hover {
+    background-color: hwb(0 0% 100% / 0.80);
+}
+
+.card2 .item-icon {
+    color: white;
+    width: 22px;
+    height: 22px;
+}
+
+.rtl.card2 .firstitem {
+    text-align: right !important;
+}

@@ -1,0 +1,11 @@
+.custom-field-container .custom-field-crud {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .custom-field-container .custom-field-crud {
+        flex-direction: column;
+    }
+}

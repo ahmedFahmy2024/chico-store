@@ -1,0 +1,8 @@
+.color-picker-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.color-picker-container h1 {
+    font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.firstSec {
+    margin-bottom: 20px;
+}
+
+.firstSec .location,
+.firstSec .time {
+    font-weight: 700;
+}
+
+.rtl .firstSec .location,
+.rtl .firstSec .time {
+    text-align: left !important;
+    padding-right: 0 !important;
+}

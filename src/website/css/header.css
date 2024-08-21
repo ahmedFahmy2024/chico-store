@@ -1,0 +1,123 @@
+.headerpage {
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+}
+
+.headerpage .website-pages {
+    margin-top: 20px;
+}
+
+.headerpage .search-Container {
+    border: none;
+    background-color: #F5F5F5;
+    color: gray;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    outline: none;
+    padding-left: 12px;
+}
+
+.headerpage .search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    z-index: 100;
+}
+
+.headerpage .search-input:focus {
+    outline: none;
+}
+
+.headerpage .search-form {
+    width: 50%;
+}
+
+.headerpage .header-icons-margin {
+    margin-left: 10px;
+}
+
+.rtl.headerpage .header-icons-margin {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .headerpage .search-form {
+        width: 100%;
+    }
+}
+
+@media (min-width: 901px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .mobile {
+        display: block;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 350;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding: 5px;
+        height: 60px;
+        /* background-color: white; */
+        box-shadow: 0 0 9px rgba(0, 0, 0, 0.12);
+    }
+
+    .mobile ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .mobile ul a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .mobile ul li a.active {
+        background-color: black;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .mobile ul li {
+        width: auto;
+    }
+
+    .mobile ul li a.active svg {
+        color: white;
+    }
+
+    .mobile ul li a:hover {
+        /* background-color: transparent; */
+        border-radius: 50%;
+    }
+
+    .mobile ul a svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .mobile ul li a .icons {
+        min-width: auto;
+    }
+}

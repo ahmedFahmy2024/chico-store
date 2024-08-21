@@ -1,0 +1,15 @@
+.firstOne {
+    order: 1;
+}
+
+@media (min-width: 900px) {
+    .secondOne {
+        order: 2;
+    }
+}
+
+@media (max-width: 900px) {
+    .secondOne div {
+        height: auto !important;
+    }
+}

@@ -1,0 +1,57 @@
+.cartOrders p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.btnqa {
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #990011;
+    color: white;
+    cursor: pointer;
+}
+
+.cartitem .cartImg {
+    width: 70px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    object-position: center;
+
+}
+
+.cartitem .text-main-grid .text-sec-grid>h5 {
+    margin: 0 0 5px;
+    font-size: 14px;
+}
+
+.cartitem .function-grid {
+    align-items: center !important;
+}
+
+.cartitem .name-title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cartitem .price,
+.cartitem .sale-price {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.cartitem .price {
+    text-decoration: line-through;
+    color: #999;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.cartitem .sub-price {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+}

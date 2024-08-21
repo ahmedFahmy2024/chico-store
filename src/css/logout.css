@@ -1,0 +1,10 @@
+.logout-menu {
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin: 8px;
+    font-weight: 700;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper {
+    box-shadow: rgba(145, 158, 171, 0.24) 0px 0px 2px 0px, rgba(145, 158, 171, 0.24) -20px 20px 40px -4px;
+}

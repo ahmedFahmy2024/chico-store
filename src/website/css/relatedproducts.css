@@ -1,0 +1,71 @@
+@media (max-width: 900px) {
+    .related-products {
+        padding-bottom: 80px;
+    }
+}
+
+.related-products .title {
+    margin-bottom: 20px;
+}
+
+.related-products .swiper-options {
+    width: 100%;
+    /* background-color: red; */
+    height: 4vh;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.related-products .swiper-options .swiper-arrows {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.related-products .swiper-options .swiper-arrows {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.related-products .swiper-options .swiper-arrows .arrow {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+
+.related-products .swiper-options .swiper-arrows .arrow:hover {
+    background-color: black;
+    color: white;
+}
+
+.related-products .swiper-options .swiper-arrows .swiper-button-disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+}
+
+.related-products .swiper-options .swiper-progress {
+    width: 80%;
+    height: 3px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.related-products .swiper-options .swiper-progress .swiper-scrollbar-drag {
+    background-color: red;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.ltr .related-products .swiper-options .swiper-arrows {
+    flex-direction: row-reverse;
+}

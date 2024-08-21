@@ -1,0 +1,65 @@
+.cartitem .quantity-container {
+    color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: fit-content;
+    background-color: #EEE;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.cartitem .quantity,
+.cartitem .qty-count {
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    border: none;
+    display: inline-block;
+    min-width: 0;
+    height: 2.5rem;
+    line-height: 1;
+}
+
+.cartitem .quantity:focus,
+.cartitem .qty-count:focus {
+    outline: none;
+}
+
+.cartitem .quantity {
+    width: 50px;
+    min-width: 0;
+    display: inline-block;
+    text-align: center;
+    appearance: textfield;
+}
+
+.cartitem .qty-count {
+    padding: 0;
+    cursor: pointer;
+    width: 2.5rem;
+    font-size: 1.25em;
+    text-indent: -100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cartitem .qty-count::before,
+.cartitem .qty-count::after {
+    content: "";
+    height: 2px;
+    width: 10px;
+    position: absolute;
+    display: block;
+    background: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cartitem .qty-count--add::after {
+    transform: rotate(90deg);
+}

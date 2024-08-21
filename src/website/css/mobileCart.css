@@ -1,0 +1,134 @@
+.mobileCart .item-content {
+    width: 100%;
+}
+
+.rtl.mobileCart .item-content {
+    text-align: right;
+}
+
+.mobileCart .item-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #eee !important;
+    border-radius: 30px;
+    aspect-ratio: 1 / 1;
+}
+
+.mobileCart .item-name {
+    margin: 0 0 5px;
+    font-size: 14px;
+}
+
+.mobileCart .sale-price {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.mobileCart .price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 13px;
+}
+
+.mobileCart .item-icon-btn {
+    background-color: black;
+    padding: 5px;
+}
+
+.mobileCart .item-icon-btn:hover {
+    background-color: hwb(0 0% 100% / 0.80);
+}
+
+.mobileCart .item-icon {
+    color: white;
+    width: 22px;
+    height: 22px;
+}
+
+.mobileCart .quantity-container {
+    color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* width: fit-content; */
+    background-color: #EEE;
+    border-radius: 20px;
+    padding: 3px 0;
+}
+
+.mobileCart .quantity,
+.mobileCart .qty-count {
+    background: transparent;
+    color: inherit;
+    /* font-weight: bold; */
+    font-size: 14px;
+    border: none;
+    display: inline-block;
+    min-width: 0;
+    /* height: 2.5rem; */
+    line-height: 1;
+}
+
+.mobileCart .quantity:focus,
+.mobileCart .qty-count:focus {
+    outline: none;
+}
+
+.mobileCart .quantity {
+    width: 50px;
+    min-width: 0;
+    display: inline-block;
+    text-align: center;
+    appearance: textfield;
+}
+
+.mobileCart .qty-count {
+    padding: 0;
+    cursor: pointer;
+    width: 2.5rem;
+    font-size: 1.25em;
+    text-indent: -100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.mobileCart .qty-count::before,
+.mobileCart .qty-count::after {
+    content: "";
+    height: 2px;
+    width: 8px;
+    position: absolute;
+    display: block;
+    background: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-weight: 400;
+}
+
+.mobileCart .qty-count--add::after {
+    transform: rotate(90deg);
+}
+
+.mobileCart .cartContainer:not(:last-child) {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 15px 0;
+}
+
+.mobileCart .item-remove {
+    font-size: 13px;
+}
+
+.mobileCart .item-remove svg {
+    font-size: 16px;
+}
+
+.mobileCart .stack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0;
+}

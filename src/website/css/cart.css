@@ -1,0 +1,15 @@
+.cart {
+    margin-top: 40px;
+}
+
+.cart .grid {
+    /* width: 100%; */
+    margin-left: 0;
+}
+
+.cart .stack-size {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 900px) {}

@@ -1,0 +1,11 @@
+.cartfirstsec .text-main-grid .text-sec-grid>h5 {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.cartfirstsec .stack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0;
+}

@@ -1,0 +1,18 @@
+.cat-text .cat-name {
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.cat-text .active {
+    background-color: black !important;
+    color: white !important;
+}
+
+.cat-text .active:hover {
+    background-color: rgba(0, 0, 0, 0.653);
+    color: white;
+}

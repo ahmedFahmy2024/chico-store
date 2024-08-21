@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Almarai", sans-serif !important;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: "Almarai", sans-serif !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+label,
+span,
+div,
+li {
+  margin: 0;
+  font-family: "Almarai", sans-serif !important;
+}
+
+th,
+td,
+tr,
+table {
+  font-family: "Almarai", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.span.tox-statusbar__branding,
+.tox:not([dir=rtl]) .tox-statusbar__branding {
+  display: none !important;
+}

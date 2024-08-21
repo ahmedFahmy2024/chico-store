@@ -1,0 +1,125 @@
+.radioButtons {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.customRadio {
+    flex: 1;
+}
+
+.customRadio input {
+    display: none;
+}
+
+.customRadio input:checked+.radioButton {
+    border: 2px solid #959aa2;
+}
+
+.radioButton {
+    width: 100%;
+    border: 1px solid #eee;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    /* box-shadow: 0 0 20px #c3c3c367; */
+    cursor: pointer;
+}
+
+.radioButton>.icon {
+    color: #ffffff;
+    background-color: #959aa2;
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    padding: 3px;
+    transition: 0.2s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.customRadio input:checked+.radioButton>.icon {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+.radioButton .deliveryicon {
+    padding: 15px;
+}
+
+.radioButton .deliveryicon .homeicon {
+    color: rgb(119, 119, 119);
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.radioButton .deliveryicon h3 {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    font-weight: bold;
+    margin: -5px 0 0 0;
+}
+
+div form .mui-wb57ya-MuiFormControl-root-MuiTextField-root {
+    margin-bottom: 10px;
+}
+
+div form .MuiFormControl-root.MuiFormControl-fullWidth {
+    margin-bottom: 10px;
+}
+
+.normalButton {
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: "10px 20px";
+    cursor: pointer;
+    transition: 0.5s all ease;
+    width: fit-content;
+    height: 40px;
+    width: 100%;
+}
+
+.disabled {
+    background-color: rgb(204, 204, 204) !important;
+    color: rgb(119, 119, 119) !important;
+    transition: 0.5s all ease;
+    padding: "10px 20px";
+    width: fit-content;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.rtl .form .inputfield {
+    margin-bottom: 10px;
+}
+
+/* .rtl .disabled,
+.rtl .normalButton {
+    width: 150px;
+} */
+
+.rtl.checkout-page .duration {
+    text-align: left !important;
+}
+
+li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters {
+    justify-content: flex-end !important;
+}
+
+.rtl.logout-menu li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters {
+    justify-content: flex-start !important;
+}
+
+.ltr.logout-menu li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters {
+    justify-content: flex-start !important;
+}
